@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    int a, b, c, d, e, f;
+    cin >> a >> b >> c >> d >>e >> f;
+    int fst = a*3 + b *2 + c;
+    int sec = d*3 + e*2 + f;
+    if(fst == sec){
+        cout << 'T' << endl;
+    }else if(fst > sec){
+        cout << 'A' << endl;
+    }else if(sec > fst){
+        cout << 'B' << endl;
+    }
+    return 0;
+}
